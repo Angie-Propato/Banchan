@@ -1,0 +1,333 @@
+/* ESTILOS CSS PARA PÁGINA */
+
+
+/*- FONTS -font-family: "Gowun Batang", serif;
+ font-family: "Nanum Brush Script", cursive;
+*/
+
+/* RESET CSS*/
+*{
+    padding: 0px;
+    font-family:"Gowun Batang", serif;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color:#31572c ;
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+   
+    
+        
+   }
+   .logo img{
+    height: 200px;
+    object-fit: contain;
+    width: auto;
+
+   }
+   
+.menu ul{
+    list-style: none;
+    margin: 15PX;
+    display: flex;
+    
+    
+}
+
+.menu li{
+    margin-left: 10px;
+    display: inline;
+    padding: 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+    font-family: Nanum Brush Script;
+    font-size: 30px;
+}
+
+body{
+    background-color:#F4FFF8;
+    
+}
+
+body{
+  line-height: 1.6;
+  font-size: 16px;
+ 
+}
+
+
+h1{
+    font-family: "Gowun Batang", serif;
+    text-align: center;
+    font-size: 50PX;
+    text-decoration: underline;
+    color:#0c0c0c;
+    
+    
+}
+
+h2{
+    color: black;
+    font-family: "Gowun Batang", serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20PX;
+margin-left: 10px;
+text-align: center;
+}
+h3{
+    color: black;
+    font-family: "Gowun Batang", serif;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 20PX;
+margin-left: 10px;
+text-align: left;
+text-decoration: underline;
+}
+
+
+P{
+    font-family: "Caveat", cursive;
+    font-size: 25PX;
+    text-align:center;
+    margin-top: 10px;
+    
+    
+   
+}
+
+
+.mesacoreana{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+/* La idea es que quede la imagen con el nombre y el ver receta al lado del otro...pero no me salió*/
+.losmaspedidos div{
+    display:flex;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    
+   
+}
+
+.kimbap img{
+    width: auto;
+    height: 300px;
+    margin-left: 10px;
+}
+.kimchi img{
+    width: auto;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.bulgogi img{
+    width: auto;
+    height: 200px;
+    margin-left: 10px;
+
+
+
+}
+
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 0%;
+    background-color:#31572c ;
+    height: 100px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+
+/* PÁGINA RESTAURANTES */
+
+
+
+.restaurante img{
+    width: auto;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.restaurante p{
+    font-family: "Caveat", cursive;
+    font-size: 20PX;
+    text-align:left;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.restaurante iframe{
+    width: auto;
+    height: 200px;
+    margin-left: 10px;
+    padding: 10px;
+
+}
+
+/* RECETAS */
+
+.categorias a{
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    font-family: "Nanum Brush Script";
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+    
+    
+}
+.explicacion h3{
+    text-align: center;
+}
+
+.explicacion p{
+    font-size: 25px;
+    margin: 10px;
+    
+}
+
+.clasificacion a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    display: inline;
+    
+}
+.clasificacion h2{
+    text-align: left;
+}
+.clasificacion img{
+    width: auto;
+    height: 150px;
+    object-fit: contain;
+    display:inline;
+    margin: 10px;
+    
+}
+ 
+.clasificacion li{
+    margin: 10px;
+    text-decoration: none;
+}
+
+.recetas img{
+    width: auto;
+    height: 300px;
+    margin: 10px;
+    
+}
+
+.recetas h2{
+    text-align: left;
+    text-decoration: underline;
+}
+
+.recetas ul{
+    margin: 20px;
+    
+}
+.recetas li{
+    margin: 10px;
+    padding: 0px;
+}
+
+.recetas ol{
+    margin: 20px;
+}
+
+.recetas video{
+
+    width: auto;
+    height: 200px;
+    margin: 10px;
+}
+
+
+/* MERCADOS COREANOS */
+
+.mercadocoreano div{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 10px;
+
+
+}
+
+ .mercadocoreano img{
+    width: auto;
+    height: 500px;
+    margin: 10px;
+   align-items: center;
+       
+
+}
+
+.ingredientes li{
+margin-left: 10px;
+
+
+}
+.dondecomprar img{
+    width: auto;
+    height: 300px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+  
+}
+
+.dondecomprar div{
+display: flex;
+justify-content: center;
+align-items: center;
+
+/* CONTACTO */
+
+}
+.contacto div{
+    font-family: "Gowun Batang", serif;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
